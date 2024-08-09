@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "rn-soul-companion-client",
+    "slug": "soul-companion-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tentionlin.soulcompanionapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.tentionlin.soulcompanionapp"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "76c0860c-8a4e-4c2f-a553-1d46dab4c1c7"
+      }
+    },
+    "owner": "tentionlin",
+    "updates": {
+      "url": "https://u.expo.dev/76c0860c-8a4e-4c2f-a553-1d46dab4c1c7"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
